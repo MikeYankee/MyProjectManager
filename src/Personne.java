@@ -1,8 +1,14 @@
 
 public abstract class Personne {
 
-	public Personne() {
-		// TODO Auto-generated constructor stub
+	private String nom, prenom;
+
+	public Personne(String unNom, String unPrenom) {
+		super();
+		this.nom = unNom;
+		this.prenom = unPrenom;
 	}
+	
+	
 
 }
