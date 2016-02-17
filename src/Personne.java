@@ -1,13 +1,21 @@
 
 public abstract class Personne {
 
-	private String nom, prenom;
+	private String nom, prenom, login, password;
 
-	public Personne(String unNom, String unPrenom) {
-		super();
+	public Personne(String unNom, String unPrenom, String unLogin, String unPassword) {
 		this.nom = unNom;
 		this.prenom = unPrenom;
+		this.login = unLogin;
+		this.password = unPassword;
 	}
+
+	@Override
+	public String toString() {
+		return "\nPersonne : " + nom + " " + prenom + "\nlogin : " + login + "\npassword : " + password;
+	}
+	
+	
 	
 	
 
