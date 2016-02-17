@@ -1,4 +1,8 @@
 # MyProjectManager
+**************************
+C'est mel qui a écrit !
+
+**************************
 
 **************************
  C'est quoi MyProjectManager ?
