@@ -1,9 +1,9 @@
 
 public class Etudiant extends Personne {
 
-	private RefPromotion promotion;
-	private 
-	public Etudiant(String unNom, String unPrenom, String unLogin, String unPassword) {
+	private Etude etude;
+	
+	public Etudiant(String unNom, String unPrenom, String unLogin, String unPassword, Etude etude) {
 		super(unNom, unPrenom, unLogin, unPassword);
 		// TODO Auto-generated constructor stub
 	}
