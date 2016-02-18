@@ -7,14 +7,22 @@ import java.util.TreeMap;
 public class Promotion {
 	
 	private Etude etude;
-	private String annee;
-	public static int nbEtudiantMax = 24;
+	private String nom, annee;
 	private TreeMap<String, Etudiant> lesEtudiants;
 	
-	public Promotion(Etude uneEtude, String uneAnnee) {
+	public Promotion(String nom, Etude uneEtude, String uneAnnee) {
+		this.nom = nom;
 		this.etude = uneEtude;
 		this.annee = uneAnnee;
 		this.lesEtudiants = new TreeMap<String, Etudiant>();
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
 	}
 
 	public Etude getEtude() {
@@ -33,14 +41,6 @@ public class Promotion {
 		this.annee = annee;
 	}
 
-	public int getNbEtudiant() {
-		return nbEtudiantMax;
-	}
-
-	public void setNbEtudiant(int nbEtudiant) {
-		this.nbEtudiantMax = nbEtudiant;
-	}
-
 	public TreeMap<String, Etudiant> getLesEtudiants() {
 		return lesEtudiants;
 	}
@@ -48,7 +48,6 @@ public class Promotion {
 	public void ajouterEtudiant(Etudiant unEtudiant) {
 		
 			lesEtudiants.put(" ",unEtudiant);
-
 	}
 
 	/**

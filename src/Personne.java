@@ -10,10 +10,28 @@ public abstract class Personne {
 		this.password = unPassword;
 	}
 
+	public String getNom() {
+		return nom;
+	}
+
+	public String getPrenom() {
+		return prenom;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
 	@Override
 	public String toString() {
 		return "\nPersonne : " + nom + " " + prenom + "\nlogin : " + login + "\npassword : " + password;
 	}
+	
+	
 	
 	
 	
