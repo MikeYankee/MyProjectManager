@@ -1,19 +1,20 @@
 public class Tache {
 
-	private String num, nom, dateDebut, dateFin;
+	private String nom, dateDebut, dateFin;
+	private int num;
 
-	public Tache(String num, String nom, String dateDebut, String dateFin) {
+	public Tache(int num, String nom, String dateDebut, String dateFin) {
 		this.num = num;
 		this.nom = nom;
 		this.dateDebut = dateDebut;
 		this.dateFin  =dateFin;
 	}
 
-	public String getNum() {
+	public int getNum() {
 		return num;
 	}
 
-	public void setNum(String num) {
+	public void setNum(int num) {
 		this.num = num;
 	}
 
@@ -43,7 +44,7 @@ public class Tache {
 
 	@Override
 	public String toString() {
-		return "\nTache : " + num + "\nNom : " + nom + "\nDate début -->" + dateDebut + "|Date fin -->" + dateFin;
+		return "\nTache " + num + " | Nom : " + nom + " | Date début -->" + dateDebut + " | Date fin -->" + dateFin;
 	}
 	
 	

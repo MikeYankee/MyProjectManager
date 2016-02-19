@@ -18,8 +18,6 @@ public class Projet {
 		this.lesEtudiants = new ArrayList <Etudiant>();
 	}
 	
-	
-
 	public String getCode() {
 		return code;
 	}
@@ -83,11 +81,19 @@ public class Projet {
 	public void setLangage(Langage langage) {
 		this.langage = langage;
 	}
+	
+	public void ajouterEtudiant(Etudiant e){
+		lesEtudiants.add(e);
+	}
 
+	public void ajouterTache(Tache t){
+		lesTaches.add(t);
+	}
+	
 	@Override
 	public String toString() {
-		return "\nProjet : " + code + "\nNom : " + nom + "\nEnonce : " + enonce + "\ndateDebut --> " + dateDebut
-				+ "|DateFin --> " + dateFin + "\n Les taches : " + lesTaches + "\n Les etudiants : " + lesEtudiants + "\nLangage développement : "
+		return "\nProjet " + code + " | Nom : " + nom + " | Enonce : " + enonce + " | dateDebut --> " + dateDebut
+				+ " | DateFin --> " + dateFin + "\nLes etudiants de ce projet : " + lesEtudiants + "\nLangage développement : "
 				+ langage;
 	}
 	

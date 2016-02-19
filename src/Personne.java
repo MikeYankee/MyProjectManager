@@ -28,7 +28,7 @@ public abstract class Personne {
 
 	@Override
 	public String toString() {
-		return "\nPersonne : " + nom + " " + prenom + "\nlogin : " + login + "\npassword : " + password;
+		return nom + " " + prenom + " | login : " + login + " | password : " + password;
 	}
 	
 	

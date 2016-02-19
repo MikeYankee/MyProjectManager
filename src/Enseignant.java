@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 
 public class Enseignant extends Personne {
 
@@ -19,13 +20,40 @@ public class Enseignant extends Personne {
 		
 	}
 	
+	public void ajouterProjet(Projet p){
+		
+		this.lesProjets.add(p);
+		
+	}
+	
+	public void ajouterEtudiantProjet(Etudiant e, Projet p){
+		
+		p.ajouterEtudiant(e);
+		
+	}
+	
 	//Fonction qui trie la liste lesEtudiants par promotion
 	public void trierEtudiantParPromotion(){	
 		Collections.sort(lesPromotions, new ComparablePromotion());
 	}
 
-	
+	public ArrayList<Projet> getLesProjets() {
+		return lesProjets;
+	}
 
-	
+	public ArrayList<Etudiant> getLesEtudiants() {
+		return lesEtudiants;
+	}
 
+	public ArrayList<Promotion> getLesPromotions() {
+		return lesPromotions;
+	}
+
+	@Override
+	public String toString() {
+		System.out.println("Enseignant : " + super.toString() + "\nSes projets : " + lesProjets);
+		return "Enseignant : " + super.toString() + "\nSes projets : " + lesProjets;
+	}
+	
+	
 }

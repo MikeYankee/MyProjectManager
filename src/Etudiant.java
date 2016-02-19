@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Etudiant extends Personne implements Comparable<Etudiant> {
 
 	private ArrayList<Tache>lesTaches;
+	private int countNum = 0;
 	
 	public Etudiant(String unNom, String unPrenom, String unLogin, String unPassword) {
 		super(unNom, unPrenom, unLogin, unPassword);
@@ -25,13 +26,21 @@ public class Etudiant extends Personne implements Comparable<Etudiant> {
 	
 	public void ajouterTache(String nom, String dateDebut, String dateFin){
 		
-		this.lesTaches.add(new Tache(this.getNom()+nom, nom, dateDebut, dateFin));
+		this.lesTaches.add(new Tache(countNum, nom, dateDebut, dateFin));
+		countNum++;
+		
+	}
+	
+	public void ajouterTache(Tache t, Projet p){
+		
+		this.lesTaches.add(t);
+		p.ajouterTache(t);
 		
 	}
 
 	@Override
 	public String toString() {
-		return "Etudiant lesTaches : " + lesTaches;
+		return "\nEtudiant : " + super.toString() + "\nles Taches : " + lesTaches;
 	}
 
 	
