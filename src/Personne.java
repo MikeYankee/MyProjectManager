@@ -1,4 +1,7 @@
-
+/**
+ * @author ybourgue
+ *
+ */
 public abstract class Personne {
 
 	private String nom, prenom, login, password;
