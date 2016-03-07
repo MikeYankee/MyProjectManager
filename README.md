@@ -30,6 +30,7 @@ Partie ajoutée :
 **************************
 
  - Connexion des étudiants pour ajouter des fichiers, renseigner les fonctionnalités réalisée pour une date, le temps passé sur le projet (exemple : aujourd’hui j’ai travaillé 2 heures). 
+ - Lors de la création d'un projet, pour ajouter un étudiant, si le temps le permet, mettre en place une auto-complétion.
 
 
 
