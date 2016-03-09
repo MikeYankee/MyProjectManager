@@ -21,8 +21,14 @@ Pourquoi faire ce projet ?
 
 **************************
 
+**************************
+Date du livrable et composition ?
 
+**************************
 
+Vous devrez rendre le rapport de vos projets le 14 juin par email.
+Le rapport sera constitué du diagramme des classes, la doc Java ainsi que les sources Java.
+Pour chacune des classes vous devrez indiquer par qui a été écrite la classe : son auteur.
 
 **************************
 Partie ajoutée : 
