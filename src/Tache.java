@@ -1,3 +1,9 @@
+/**
+ * @author Yann Bourguès
+
+ * @version 1.0
+
+ */
 public class Tache {
 
 	private String nom, dateDebut, dateFin;

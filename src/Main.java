@@ -1,3 +1,9 @@
+/**
+ * Main
+ * 
+ * @author Yann Bourguès
+ * @version 1.0
+ */
 
 public class Main {
 

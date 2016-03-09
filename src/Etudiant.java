@@ -1,7 +1,18 @@
 import java.util.ArrayList;
+/**
+ * Class Etudiant, 
+ * 
+ * @author Yann Bourguès
+ * @version 1.0
+ */
 
 public class Etudiant extends Personne implements Comparable<Etudiant> {
-
+	 
+	/**
+     * La liste des taches attaché à un étudiant
+     * 
+     * @see Tache
+     */
 	private ArrayList<Tache>lesTaches;
 	private int countNum = 0;
 	

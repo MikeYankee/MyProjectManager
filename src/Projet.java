@@ -1,5 +1,10 @@
 import java.util.ArrayList;
+/**
+ * @author Yann Bourguès
 
+ * @version 1.0
+
+ */
 public class Projet {
 
 	private String code, nom, enonce, dateDebut, dateFin;

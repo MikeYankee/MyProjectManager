@@ -1,6 +1,12 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+/**
+ * Class Enseignant, 
+ * 
+ * @author Yann Bourguès
+ * @version 1.0
+ */
 
 public class Enseignant extends Personne {
 
@@ -19,7 +25,16 @@ public class Enseignant extends Personne {
 		this.lesProjets.add(new Projet(nom.substring(5)+langage, nom, enonce, dateDebut, dateFin, langage));
 		
 	}
-	
+
+	   /**
+
+     * Ajoute un projet créée par l'enseignant.
+     * 
+     * @param p
+     *            Un objet Projet créée par l'enseignant
+     * 
+     * @see Yann Bourguès
+     */
 	public void ajouterProjet(Projet p){
 		
 		this.lesProjets.add(p);
