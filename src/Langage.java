@@ -2,9 +2,10 @@ public enum Langage {
 
 	Java,
 	Php,
-	JavaIE,
+	JavaEE,
 	Python,
-	Javascript;
+	Javascript,
+	C;
 
 }
 

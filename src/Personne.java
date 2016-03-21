@@ -1,13 +1,13 @@
 /**
  * Class Personne, 
- * Cette classe permet de généraliser les informations primaires (nom, prénom, login, password) d'un étudiant et d'un enseignant
+ * Cette classe permet de généraliser les informations primaires (nom, prénom, login) d'un étudiant et d'un enseignant
  * @author Yann Bourguès
  * @version 1.0
  */
 
 public abstract class Personne {
 
-	private String nom, prenom, login, password;
+	private String nom, prenom, mail;
 
 	 /**
      * Constructeur Personne.
@@ -15,18 +15,15 @@ public abstract class Personne {
      *            Le nom de la personne.
      * @param unPrenom
      *            Le prénom de la personne.
-     *  @param unLogin
-     *            Le login de la personne.
-     * @param unPassword
-     *            Le mot de passe de la personne.
+     *  @param unMail
+     *            Le Mail de la personne.
      * @see Etudiant
      * @see Enseignant
      */
-	public Personne(String unNom, String unPrenom, String unLogin, String unPassword) {
+	public Personne(String unNom, String unPrenom, String unMail) {
 		this.nom = unNom;
 		this.prenom = unPrenom;
-		this.login = unLogin;
-		this.password = unPassword;
+		this.mail = unMail;
 	}
 
 	public String getNom() {
@@ -37,23 +34,12 @@ public abstract class Personne {
 		return prenom;
 	}
 
-	public String getLogin() {
-		return login;
-	}
-
-	public String getPassword() {
-		return password;
+	public String getMail() {
+		return mail;
 	}
 
 	@Override
 	public String toString() {
-		return nom + " " + prenom + " | login : " + login + " | password : " + password;
+		return nom + " " + prenom + " | mail : " + mail;
 	}
-	
-	
-	
-	
-	
-	
-
 }

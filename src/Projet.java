@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.TreeSet;
 /**
  * @author Yann Bourguès
 
@@ -7,47 +8,50 @@ import java.util.ArrayList;
  */
 public class Projet {
 
-	private String code, nom, enonce, dateDebut, dateFin;
-	private ArrayList<Tache>lesTaches;
-	private ArrayList<Etudiant>lesEtudiants;
+	private int id;
+	private String titre, description;
+	private float noteFinale;
 	private Langage langage;
-
-	public Projet(String code, String nom, String enonce, String dateDebut, String dateFin, Langage langage) {
-		this.code = code;
-		this.nom = nom;
-		this.enonce = enonce;
-		this.dateDebut = dateDebut;
-		this.dateFin = dateFin;
-		this.langage = langage;
-		this.lesTaches = new ArrayList <Tache>();
-		this.lesEtudiants = new ArrayList <Etudiant>();
-	}
+	private TreeSet<Etudiant> lesEtudiants;
 	
-	public String getCode() {
-		return code;
+	//Constructeur de Projet
+	public Projet(int unId, String unTitre, String uneDescription, Langage langage) {
+		this.id = unId;
+		this.titre = unTitre;
+		this.description = uneDescription;
+		this.langage = langage;
+		this.lesEtudiants = new TreeSet<Etudiant>();
 	}
 
-	public String getNom() {
-		return nom;
+	public int getId() {
+		return id;
 	}
 
-	public String getEnonce() {
-		return enonce;
+	public String getTitre() {
+		return titre;
 	}
 
-	public String getDateDebut() {
-		return dateDebut;
+	public void setTitre(String titre) {
+		this.titre = titre;
 	}
 
-	public String getDateFin() {
-		return dateFin;
+	public String getDescription() {
+		return description;
 	}
 
-	public ArrayList<Tache> getLesTaches() {
-		return lesTaches;
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
-	public ArrayList<Etudiant> getLesEtudiants() {
+	public float getNoteFinale() {
+		return noteFinale;
+	}
+
+	public void setNoteFinale(float noteFinale) {
+		this.noteFinale = noteFinale;
+	}
+
+	public TreeSet getLesEtudiants() {
 		return lesEtudiants;
 	}
 
@@ -55,51 +59,14 @@ public class Projet {
 		return langage;
 	}
 
-	public void setCode(String code) {
-		this.code = code;
-	}
-
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	public void setEnonce(String enonce) {
-		this.enonce = enonce;
-	}
-
-	public void setDateDebut(String dateDebut) {
-		this.dateDebut = dateDebut;
-	}
-
-	public void setDateFin(String dateFin) {
-		this.dateFin = dateFin;
-	}
-
-	public void setLesTaches(ArrayList<Tache> lesTaches) {
-		this.lesTaches = lesTaches;
-	}
-
-	public void setLesEtudiants(ArrayList<Etudiant> lesEtudiants) {
-		this.lesEtudiants = lesEtudiants;
-	}
-
 	public void setLangage(Langage langage) {
 		this.langage = langage;
 	}
 	
-	public void ajouterEtudiant(Etudiant e){
-		lesEtudiants.add(e);
-	}
-
-	public void ajouterTache(Tache t){
-		lesTaches.add(t);
-	}
-	
 	@Override
 	public String toString() {
-		return "\nProjet " + code + " | Nom : " + nom + " | Enonce : " + enonce + " | dateDebut --> " + dateDebut
-				+ " | DateFin --> " + dateFin + "\nLes etudiants de ce projet : " + lesEtudiants + "\nLangage développement : "
-				+ langage;
+		return "\nProjet " + titre + " | Description : " + description + "\nLangage développement : "
+				+ langage + "\n Groupe : " + lesEtudiants.toString();
 	}
 	
 	
