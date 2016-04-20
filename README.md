@@ -15,19 +15,24 @@ Les projets seront archivés par année et une recherche pourra être faite par 
 Pourquoi faire ce projet ?
 **************************
 
+Application dans le cadre projet MIAGE TOA,répondre au besoin enseignant par un outil de gestion de projet de développement
+
 **************************
 Date du livrable et composition ?
 **************************
 
 Vous devrez rendre le rapport de vos projets le 14 juin par email.
-Le rapport sera constitué du diagramme des classes, la doc Java ainsi que les sources Java.
+Le rapport sera constitué du diagramme des classes, la doc Java (Javadoc) ainsi que les sources Java.
 Pour chacune des classes vous devrez indiquer par qui a été écrite la classe : son auteur.
 
 **************************
 Partie ajoutée : 
 **************************
 
- - Connexion des étudiants pour ajouter des fichiers, renseigner les fonctionnalités réalisée pour une date, le temps passé sur le projet (exemple : aujourd’hui j’ai travaillé 2 heures). 
+ - Connexion étudiants 
+ - renseigner les fonctionnalités réalisée pour une date, le temps passé sur le projet (exemple : aujourd’hui j’ai travaillé 2 heures). 
+ - Inscription étudiants 
+ - Ajout de fichier (image, texte, ...) pour les revues de Jalon faite par l'enseignant
  - Lors de la création d'un projet, pour ajouter un étudiant, si le temps le permet, mettre en place une auto-complétion.
 
 **************************
@@ -35,9 +40,13 @@ Yann :
 **************************
 
 - rien a faire
+- Inscription étudiants
+- dashboard étudiants
 
 **************************
 Mélanie : 
 **************************
 
 - tout à faire
+- Connexion étudiants/Enseignant
+- Accueil
