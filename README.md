@@ -34,6 +34,7 @@ Partie ajoutée :
  - Inscription étudiants 
  - Ajout de fichier (image, texte, ...) pour les revues de Jalon faite par l'enseignant
  - Lors de la création d'un projet, pour ajouter un étudiant, si le temps le permet, mettre en place une auto-complétion.
+ - Menu verticale coté gauche pour circuler plus facilement sur l'appli (ex partie enseignant : Dashboard | Voir projets | ...)
 
 **************************
 Yann : 
@@ -41,7 +42,7 @@ Yann :
 
 - rien a faire
 - Inscription étudiants
-- dashboard étudiants
++ Dashboard étudiants 
 
 **************************
 Mélanie : 
@@ -50,3 +51,5 @@ Mélanie :
 - tout à faire
 - Connexion étudiants/Enseignant
 - Accueil
++ Dashboard enseignants
++ Création projet (Libelle, étudiants, ...)
