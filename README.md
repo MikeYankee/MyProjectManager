@@ -29,9 +29,9 @@ Pour chacune des classes vous devrez indiquer par qui a été écrite la classe 
 Partie ajoutée : 
 **************************
 
- - Connexion étudiants 
+ - ☻♀ Connexion étudiants 
  - renseigner les fonctionnalités réalisée pour une date, le temps passé sur le projet (exemple : aujourd’hui j’ai travaillé 2 heures). 
- - Inscription étudiants 
+ - ☻♂Inscription étudiants 
  - Ajout de fichier (image, texte, ...) pour les revues de Jalon faite par l'enseignant
  - Lors de la création d'un projet, pour ajouter un étudiant, si le temps le permet, mettre en place une auto-complétion.
  - Menu verticale coté gauche pour circuler plus facilement sur l'appli (ex partie enseignant : Dashboard | Voir projets | ...)
@@ -41,7 +41,7 @@ Yann :
 **************************
 
 - rien a faire
-- Inscription étudiants
+- ☻♂Inscription étudiants
 + Dashboard étudiants 
 
 **************************
@@ -49,7 +49,7 @@ Mélanie :
 **************************
 
 - tout à faire
-- Connexion étudiants/Enseignant
+- ☻♀Connexion étudiants/Enseignant
 - Accueil
 + Dashboard enseignants
 + Création projet (Libelle, étudiants, ...)
