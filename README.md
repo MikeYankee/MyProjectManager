@@ -43,6 +43,7 @@ Yann :
 - rien a faire
 - ☻♂Inscription étudiants
 + Dashboard étudiants 
++ Ajout fichier selon Jalon
 
 **************************
 Mélanie : 
@@ -50,6 +51,6 @@ Mélanie :
 
 - tout à faire
 - ☻♀Connexion étudiants/Enseignant
-- Accueil
+- ☻♀Accueil
 + Dashboard enseignants
 + Création projet (Libelle, étudiants, ...)
