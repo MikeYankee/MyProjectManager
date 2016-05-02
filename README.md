@@ -35,6 +35,7 @@ Partie ajoutée :
  - Ajout de fichier (image, texte, ...) pour les revues de Jalon faite par l'enseignant
  - Lors de la création d'un projet, pour ajouter un étudiant, si le temps le permet, mettre en place une auto-complétion.
  - Menu verticale coté gauche pour circuler plus facilement sur l'appli (ex partie enseignant : Dashboard | Voir projets | ...)
+ - Pouvoir faire un export tableau excel (colonne projet, étudiant, note, ...)
 
 **************************
 Yann : 
@@ -44,6 +45,7 @@ Yann :
 - ☻♂Inscription étudiants
 + Dashboard étudiants 
 + Ajout fichier selon Jalon
+- ☻♂Création projet (Libelle, étudiants, ...)
 
 **************************
 Mélanie : 
@@ -52,5 +54,5 @@ Mélanie :
 - tout à faire
 - ☻♀Connexion étudiants/Enseignant
 - ☻♀Accueil
-+ Dashboard enseignants
-+ Création projet (Libelle, étudiants, ...)
+- ☻♀Dashboard enseignants
+
