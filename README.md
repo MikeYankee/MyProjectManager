@@ -37,12 +37,13 @@ Partie ajoutée :
  - Menu verticale coté gauche pour circuler plus facilement sur l'appli (ex partie enseignant : Dashboard | Voir projets | ...)
  - JPanel verticale coté droit pour visionner les étudiants appartenant à un projet (vue detailsProjet) avec possibilité d'ajouter et de supprimer (exemple: Yann Bourgues |X(delete)|)
  - Pouvoir faire un export tableau excel (colonne projet, étudiant, note, ...)
+ - Ajouter partie CreerJalon dans menu pour pouvoir créer un jalon est l'ajouter à un ou plusieurs projet avec l'aide d'un JTable récapitulant les projets avec possibilité de "COCHER".
 
 **************************
 Yann : 
 **************************
 
-- rien a faire
+- ☻♂rien a faire
 - ☻♂Inscription étudiants
 + Dashboard étudiants 
 + Ajout fichier selon Jalon
@@ -53,7 +54,7 @@ Yann :
 Mélanie : 
 **************************
 
-- tout à faire
+- ☻♂tout à faire
 - ☻♀Connexion étudiants/Enseignant
 - ☻♀Accueil
 - ☻♀Dashboard enseignants
